@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Deep Dark Hole</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    
+  </head>
+  <body>
+	  <nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container">
+			  <a class="navbar-brand hidden-xs" href="#video">
+			  	<img alt="Brand" src="img/elbow_room_icon_small2.png">
+			  </a>
+		  <ul class="nav navbar-nav">
+			  <li class="buy"><a href="#buynow">Buy</a></li>			  
+			  <li><a href="#elbowroom">About</a></li>
+			  <li><a href="#howtoplay">Instructions</a></li>
+			  <li><a href="#getit">Party</a></li>
+
+		  </ul>
+		  </div>
+	  </nav>
+    
+    <div class="overlay"></div>
+		
+	<div id="video" data-vide-bg="video/ddh-vid.webm" data-vide-options="posterType: jpg">
+	</div>
+    
+    <div id="main" class="section vertical-center">
+	    <div class="container">	    
+		    <div class="row">
+			    <div class="col-sm-7">
+				    <img src="img/keyboard.png">
+			    </div>
+			    <div class="col-sm-5">			    
+					<h1>Elbow Room</h1>
+					<p><b>101 Keys. 1 Winner.</b></p>
+					<p><small>A game about personal space, perpetual motion, and hitting a single key better than anyone else.</small></p>
+					<p><a class="btn btn-primary btn-lg" href="#buynow">Download Elbow Room</a></p>
+			    </div>
+		    </div>
+	    </div>
+    </div>
+    
+     <div id="elbowroom" class="section vertical-center">
+	    <div class="container">	    
+		    <div class="row">
+			    <div class="col-sm-7 col-sm-push-5">
+	
+					<p class="skew">
+						<span class="unskew">Play with as many people as you can fit on one keyboard! <b>Elbow Room</b> is a simple, one-button game with short rounds&mdash;easy to join, easy to play!</span>
+					</p>
+					
+
+					
+					<div class="row hidden" id="awards">
+						
+						
+						<div class="col-sm-3 col-xs-6">
+							<a href="#"><img src="img/indiecade.png"></a>
+						</div>
+						
+						<div class="col-sm-3 col-xs-6">
+							<a href="#"><img src="img/wildrumpus.png"></a>
+						</div>
+						
+						<div class="col-sm-3 col-xs-6">
+							<a href="#"><img src="img/indiecade.png"></a>
+						</div>
+						
+						<div class="col-sm-3 col-xs-6">
+							<a href="#"><img src="img/wildrumpus.png"></a>
+						</div>
+					</div>
+			    </div>
+		    </div>
+	    </div>
+     </div>
+
+
+	 <div id="howtoplay" class="section vertical-center">
+		<div class="container">
+			<h2>How To Play</h2>
+			<div class="row wigglegifs">
+				<div class="col-sm-4"><div class="wiggle one"></div><b class="one">Tap on your letter</b></div>
+				<div class="col-sm-4"><div class="wiggle two"></div><b class="two">Double-tap to reverse</b></div>
+				<div class="col-sm-4"><div class="wiggle three"></div><b class="three">Miss and you're out</b></div>
+			</div>
+
+		</div>
+    </div>
+    
+     <div id="getit" class="section vertical-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					
+				</div>
+			</div>
+			
+
+			
+
+			<div class="row">
+				 <div class="col-sm-12">
+					 <div class="skew">
+						 <div class="unskew">
+							 
+						 <h2>A party game for 1 to 100!</h2>
+						 <p>
+						 <b>Elbow Room</b> is all about getting tons of people together in a space and having some good old fashioned fun.
+						</p>
+						 </div>
+					 </div>
+			    </div>
+		    </div>
+		</div>
+    </div>
+    
+     <div id="buynow" class="section vertical-center">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-sm-5">
+					<img src="img/elbow_room_icon.png">
+				</div>
+										
+				<div class="col-sm-7 skew">
+									
+					<div class="unskew">
+							
+						<h2>Download Elbow Room</h2>
+						<h3>Available for <i class="fa fa-apple"></i> <i class="fa fa-windows"></i> <i class="fa fa-linux"></i> </h3>
+						<br/>				
+						<h4 class="pay">Pay What You Want!</h4>
+						
+						<form class="purchase form-inline" action="http://deepdarkhole.fetchapp.com/sell/4df8386a" method="get" target="_blank">
+							<div class="form-group-lg">
+								<input class="form-control" id="price" data-a-sign="$" type="text" name="amount" value="$10.00" placeholder="Pay What You Want!">
+								<button id="buy" class="btn btn-lg btn-success" type="submit" value="Buy now!" onclick="ga('send', 'event', { eventCategory: 'Purchase', eventAction: 'Game', eventValue: $('#price').val() });">
+								Buy now!
+								</button>
+							</div>
+							
+						</form>
+						
+						<br/>
+						
+						<p class="tip">
+							<h4 class="tip">Add a tip!</h4>
+							<a class="btn btn-info btn-lg" data-tip="1">+$1</a> 
+							<a class="btn btn-info btn-lg" data-tip="5">+$5</a> 
+							<a class="btn btn-info btn-lg" data-tip="10">+$10</a>
+							<a class="btn btn-info btn-lg" data-tip="20">+$20</a>
+							<a class="btn btn-info btn-lg" data-tip="50">+$50</a>
+						</p>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+    </div>
+    
+    <div id="footer">
+	    Made in a <a class="ddh" href="mailto:team@deepdarkhole.com">Deep Dark Hole</a><br/>
+	    <a href="http://twitter.com/andreimarks">@andreimarks</a> &middot; <a href="http://twitter.com/willstall">@willstall</a> &middot; <a href="http://twitter.com/dainsaint">@dainsaint</a>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/autoNumeric.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
